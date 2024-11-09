@@ -79,4 +79,7 @@ public class Block {
     public int getNonce() {
         return nonce;
     }
+    public String getPrevHash() {
+        return prevHash;
+    }
 }
